@@ -1,0 +1,20 @@
+<template name="appBody">
+  <div id="appBody">
+
+    <div id="menubar">
+    	<div id="branding">
+    		
+    	</div>
+    	<div style="width:50%">
+    	</div>
+    	<div id="loginInfo">
+			<button type="button" class="btn btn-danger">Sign Up</button>
+			<button type="button" class="btn btn-primary">Log In</button>
+    	</div>
+
+    </div>
+    <div id="container" >
+    	{{>yield}}  
+    </div>
+  </div>
+</template>

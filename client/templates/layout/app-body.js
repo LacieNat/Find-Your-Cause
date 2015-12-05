@@ -1,0 +1,3 @@
+Template.appBody.events({
+  
+});
