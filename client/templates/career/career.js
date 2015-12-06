@@ -3,7 +3,7 @@ Template.career.events({
         e.preventDefault();
         $(e.target).siblings('a.active').removeClass("active");
         $(e.target).addClass("active");
-        var index = $(this).index();
+        var index = $(e.target).index();
         $("div.tab>div.tab-content").removeClass("active");
         $("div.tab>div.tab-content").eq(index).addClass("active");
     }

@@ -1,0 +1,66 @@
+<template name="showcase">
+	<div class="row" id="jobTitle">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			{{title}}
+		</div>
+	</div>
+	<div class="row jobDetailTitle">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			Notable Software Engineers
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ptop8">
+			{{#each notablePeople}}
+				<img id="{{_id}}" class="peopleImg" src="/img/people/{{imageUrl}}"/>
+			{{/each}}
+		</div>
+	</div>
+	<div class="row">
+		{{#each notablePeople}}
+		<div id="div-{{_id}}" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ptop8 hidden notablePeopleDetails">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="title-{{imageUrl}}"><a href="{{link}}">{{name}}</a></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="description-{{imageUrl}}">{{description}}</div>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+	<div class="row jobDetailTitle">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			Notable Software Projects
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ptop8">
+			{{#each notableProjects}}
+				<img id="{{_id}}" class="projectImg" src="/img/projects/{{imageUrl}}"/>
+			{{/each}}
+		</div>
+	</div>
+	<div class="row">
+		{{#each notableProjects}}
+		<div id="div-{{_id}}" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ptop8 hidden notablePeopleDetails">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="title-{{imageUrl}}"><a href="{{link}}">{{name}}</a></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="creator-{{imageUrl}}">Creator: {{creator}}</div>
+					<div id="description-{{imageUrl}}">{{description}}</div>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+</template>
