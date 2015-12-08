@@ -1,0 +1,105 @@
+{
+ "name": "Software Engineering Areas",
+ "description": "Different Areas requires different skills. Hover over each area to read the details",
+ "children": [
+  {
+   "name": "Web Development",
+   "description": "Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development.",
+   "children": [
+    {
+     "name": "FrontEnd Development",
+        "description": "Front end development, also known as client side development is the practice of producing HTML, CSS and JavaScript for a website or web application so that a user can see and interact with them directly.[1] The challenges associated with front end developers is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.",
+     "children": [
+      {"name": "HTML", 
+        "description": "HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.",
+      "size": 3938},
+      {"name": "CSS", 
+      "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.",
+      "size": 3812},
+      {"name": "JavaScript", 
+      "description":    "JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification.",
+      "size": 6714},
+      {"name": "LESS", 
+      "description": "Less (sometimes stylized as LESS) is a dynamic style sheet language that can be compiled into Cascading Style Sheets (CSS) and run on the client-side or server-side.",
+      "size": 743}
+     ]
+    },
+    {
+     "name": "BackEnd Development",
+     "description": "The back-end developer usually takes ready front-end code and implements it into application where everything is displayed dynamically using data stored in a database. This developer works closely with proposed functionality specifications that end user want to achieve.",
+     "children": [
+      {"name": "Python", "size": 3534},
+      {"name": "NodeJS", "size": 5731},
+      {"name": "PHP", "size": 7840},
+      {"name": "SQL", "size": 5914},
+      {"name": "MongoDB", "size": 3416}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Artificial Intelligence",
+   "children": [
+    {
+     "name": "Algorithms & Logic",
+     "children": [
+      {"name": "C++", "size": 1983},
+      {"name": "Java", "size": 2047},
+      {"name": "Calculus", "size": 1375},
+      {"name": "Linear Algebra II", "size": 8746},
+      {"name": "Algorithms", "size": 2202},
+      {"name": "Logic", "size": 1382}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Operating Systems",
+   "children": [
+    {
+     "name": "Microsoft Windows",
+     "children": [
+      {"name": "System Planning", "size": 721},
+      {"name": "Architectural Design", "size": 4294}
+     ]
+    },
+    {
+      "name": "Linux", 
+      "children": [
+        {"name": "Red Hat Linux 5 - 9", "size": 2165},
+        {"name": "Fedora 7 - 16", "size": 586}
+      ]
+    },
+    {
+      "name": "Apple Mac", 
+      "children": [
+        {"name": "OS9", "size": 2165},
+        {"name": "OSX10.4 - 10.7", "size": 586},
+        {"name": "OSX 10.4 Server", "size": 3331}
+      ]
+    }
+   ]
+  },
+  {
+   "name": "Computer Graphic Design",
+   "children": [
+    {"name": "Flash", "size": 8833},
+    {"name": "3D Modelling", "size": 1732},
+    {"name": "Vector Design & Graphics", "size": 3623},
+    {"name": "Drawing", "size": 10066}
+   ]
+  },
+  {
+   "name": "Computer Networking",
+   "children": [
+    {"name": "Layer 1", "size": 4116},
+    {"name": "Layer 2", "size": 4116},
+    {"name": "Layer 3", "size": 4116},
+    {"name": "Layer 4", "size": 4116},
+    {"name": "Layer 5", "size": 4116},
+    {"name": "Layer 6", "size": 4116},
+    {"name": "Layer 7", "size": 4116}
+   ]
+  }
+ ]
+}

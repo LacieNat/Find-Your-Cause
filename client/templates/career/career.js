@@ -1,9 +1,15 @@
 Template.career.events({
 	"click div.tab-menu>div.list-group>a": function(e) {
         e.preventDefault();
-        $(e.target).siblings('a.active').removeClass("active");
-        $(e.target).addClass("active");
-        var index = $(e.target).index();
+        var element;
+        if($(e.target).siblings('a').length>0) {
+        	element = $(e.target);
+        } else {
+        	element = $(e.target).parent();
+        }
+        element.siblings('a.active').removeClass("active");
+        element.addClass("active");
+        var index = element.index();
         $("div.tab>div.tab-content").removeClass("active");
         $("div.tab>div.tab-content").eq(index).addClass("active");
     }

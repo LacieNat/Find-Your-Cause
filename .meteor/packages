@@ -22,3 +22,4 @@ twbs:bootstrap
 iron:router
 less
 d3js:d3
+fortawesome:fontawesome
